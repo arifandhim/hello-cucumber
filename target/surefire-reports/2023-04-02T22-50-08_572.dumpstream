@@ -1,0 +1,5 @@
+# Created at 2023-04-02T22:50:10.876
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Belajar\Github\hellocucumber\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

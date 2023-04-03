@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-03T14:17:59.663Z",
+        "before": [
+          {
+            "result": {
+              "duration": 147736200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hellocucumber.steps.hooks.testStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sending a GET request with query parameter and header",
+        "description": "",
+        "id": "an-example;sending-a-get-request-with-query-parameter-and-header",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1687985900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the base URI is \"https://jsonplaceholder.typicode.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://jsonplaceholder.typicode.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "hellocucumber.steps.RestAssuredUtilsStepDefinitions.the_base_URI_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80969600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the query parameter \"postId\" is set to \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"postId\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 39
+                }
+              ],
+              "location": "hellocucumber.steps.RestAssuredUtilsStepDefinitions.the_query_parameter_is_set_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100899800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the header \"Authorization\" is set to \"Bearer token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authorization\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Bearer token\"",
+                  "offset": 37
+                }
+              ],
+              "location": "hellocucumber.steps.RestAssuredUtilsStepDefinitions.the_header_is_set_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1766801500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a GET request is sent to \"/comments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/comments\"",
+                  "offset": 25
+                }
+              ],
+              "location": "hellocucumber.steps.RestAssuredUtilsStepDefinitions.a_GET_request_is_sent_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8468600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the response status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "hellocucumber.steps.RestAssuredUtilsStepDefinitions.the_response_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5017700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the response body should not be empty",
+            "match": {
+              "location": "hellocucumber.steps.RestAssuredUtilsStepDefinitions.the_response_body_should_not_be_empty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fasdfas"
+          },
+          {
+            "name": "@RestAssured"
+          }
+        ]
+      }
+    ],
+    "name": "An example",
+    "description": "",
+    "id": "an-example",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/RestAssured.feature",
+    "tags": [
+      {
+        "name": "@fasdfas",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
